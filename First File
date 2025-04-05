@@ -6,7 +6,9 @@ class Program
     {
         string name = "Mian Salman";
         string rollNumber = "Roll No: 24-ST-071";
+        string[] fscSubjects = { "Physics", "Chemistry", "Mathematics" }; 
 
+        1st-Semester
         2nd-Semester
         string[] semester2Subjects = {
             "Object-Oriented Programming",
@@ -31,6 +33,9 @@ class Program
 
         Console.WriteLine(rollNumber);
 
+        Console.WriteLine(rollNumber);
+        
+        Fsc-Subject
         Console.WriteLine("\nName Characters:");
         for (int i = 0; i < name.Length; i++)
         1st-Semester
@@ -42,6 +47,12 @@ class Program
         for (int i = 0; i < semester1Subjects.Length; i++)
         {
             Console.WriteLine($"Subject {i + 1}: {semester1Subjects[i]}");
+        }
+
+        Console.WriteLine("\nFSc Subjects:");
+        for (int i = 0; i < fscSubjects.Length; i++)
+        {
+            Console.WriteLine($"Subject {i + 1}: {fscSubjects[i]}");
         }
     }
 }
