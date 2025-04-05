@@ -7,9 +7,20 @@ class Program
         string name = "Mian Salman";
         string rollNumber = "Roll No: 24-ST-071";
 
-        for (int i = 0; i < name.Length; i++)
+        string[] semester2Subjects = {
+            "Object-Oriented Programming",
+            "Discrete Structures",
+            "Communication Skills",
+            "Differential Equations",
+            "Digital Logic Design",
+            "Pakistan Studies"
+        };
+
+        Console.WriteLine("2nd Semester Subjects (BSc Software Engineering):\n");
+
+        for (int i = 0; i < semester2Subjects.Length; i++)
         {
-            Console.WriteLine($"Position {i + 1}: {name[i]}");
+            Console.WriteLine($"{i + 1}. {semester2Subjects[i]}");
         }
     }
 }
