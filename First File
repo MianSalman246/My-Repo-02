@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string name = "Mian Salman";
+        string rollNumber = "Roll No: 24-ST-071";
+
+        for (int i = 0; i < name.Length; i++)
+        {
+            Console.WriteLine($"Position {i + 1}: {name[i]}");
+        }
+    }
+}
